@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MenuPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Playlist"
+            android:layout_width="117dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="147dp"
+            android:layout_marginEnd="262dp"
+            android:layout_marginBottom="545dp"
+            android:text="Playlist"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/PL1"
+            android:layout_width="151dp"
+            android:layout_height="116dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="217dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@+id/PL2"
+            android:background="@color/black"
+            android:onClick="musicplayer"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/bb" />
+
+        <ImageButton
+            android:id="@+id/PL2"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="214dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="394dp"
+            android:layout_toStartOf="@+id/PL3"
+            android:background="@color/black"
+            android:onClick="musicplayer"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/disk" />
+
+        <ImageButton
+            android:id="@+id/PL3"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="216dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="392dp"
+            android:background="@color/black"
+            android:onClick="musicplayer"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/turntable" />
+
+        <TextView
+            android:id="@+id/Moods"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="350dp"
+
+            android:layout_marginEnd="126dp"
+            android:layout_marginBottom="333dp"
+            android:text="Moods Playlist"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/MP1"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="419dp"
+            android:layout_marginEnd="146dp"
+            android:layout_marginBottom="197dp"
+            android:background="@color/black"
+            android:onClick="musicplayer"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/bomb" />
+
+        <ImageButton
+            android:id="@+id/MP2"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="423dp"
+            android:layout_marginEnd="286dp"
+            android:layout_marginBottom="185dp"
+            android:background="@color/black"
+            android:onClick="musicplayer"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/hurt" />
+
+        <ImageButton
+            android:id="@+id/MP3"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="291dp"
+            android:layout_marginTop="416dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="192dp"
+            android:background="@color/black"
+            android:onClick="musicplayer"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/rommusic" />
+
+        <ImageView
+            android:id="@+id/searchbox"
+            android:layout_width="417dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-4dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="-6dp"
+            android:layout_marginBottom="600dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/searchbar" />
+
+
+        <ImageButton
+            android:id="@+id/LocalPlayer"
+            android:layout_width="54dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="645dp"
+            android:layout_marginEnd="330dp"
+            android:layout_marginBottom="21dp"
+            android:background="@color/black"
+            android:onClick="localmusicplayer"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/local" />
+
+        <ImageButton
+            android:id="@+id/OnlinePlayer"
+            android:layout_width="65dp"
+            android:layout_height="76dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="184dp"
+            android:layout_marginTop="643dp"
+            android:layout_marginEnd="162dp"
+            android:layout_marginBottom="11dp"
+            android:background="@color/black"
+            android:onClick="musicplayer"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/online" />
+
+        <ImageButton
+            android:id="@+id/ChatBot"
+            android:layout_width="62dp"
+            android:layout_height="71dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="317dp"
+            android:layout_marginTop="648dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="13dp"
+            android:background="@color/black"
+            android:onClick="musicplayer"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/chatbot" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="549dp"
+            android:layout_marginEnd="301dp"
+            android:layout_marginBottom="144dp"
+            android:text="SAD"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="178dp"
+            android:layout_marginTop="554dp"
+            android:layout_marginEnd="174dp"
+            android:layout_marginBottom="140dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:text="HAPPY" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="314dp"
+            android:layout_marginTop="552dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginBottom="142dp"
+            android:text="ROMANTIC"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
