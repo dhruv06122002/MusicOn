@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicOn">
         <activity
+            android:name=".chatbot"
+            android:exported="false" />
+        <activity
             android:name=".MusicPlayerredirect"
             android:exported="false" />
         <activity

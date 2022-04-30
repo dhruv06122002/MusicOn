@@ -27,4 +27,9 @@ public class MenuPage extends AppCompatActivity {
         startActivity(i);
 
     }
+
+    public void cbr(View view) {
+        Intent i = new Intent(MenuPage.this,chatbot.class);
+        startActivity(i);
+    }
 }
